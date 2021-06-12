@@ -1,0 +1,34 @@
+{env}:
+  DC_CODE: 0
+  mobike_db:
+    host: mysql.{env}.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.{env}.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.{env}.mobike.io
+    athena_host: http://athena.{env}.mobike.io
+    mercury_host: http://mercury.{env}.mobike.io
+    mola_host: http://mola.{env}.mobike.io
+
+  redis_service:
+    host: redis.{env}.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: codis.{env}.mobike.io
+    port: 19000
+    passwd:
+
+  mqtt:
+    host: {env}.mobike.io

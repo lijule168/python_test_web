@@ -1,0 +1,34 @@
+elite:
+  DC_CODE: 0
+  mobike_db:
+    host: mysql.elite.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.elite.mobike.io
+    port: 27017
+    user: rwuser
+    passwd: tYt9D7rbwCE8TX
+
+  mobike_service:
+    mobike_api_host: http://app.elite.mobike.io
+    athena_host: http://athena.elite.mobike.io
+    mercury_host: http://mercury.elite.mobike.io
+    mola_host: http://mola.elite.mobike.io
+
+  redis_service:
+    host: redis.elite.mobike.io
+    port: 6379
+    passwd: tYt9D7rbwCE8TX
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: elite.mobike.io

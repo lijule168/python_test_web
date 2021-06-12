@@ -1,0 +1,11 @@
+locust
+redis
+requests
+configparser
+pymongo
+jsonpath
+pymysql
+grpcio
+grpcio-tools
+paho-mqtt
+pyyaml

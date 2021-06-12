@@ -1,0 +1,104 @@
+tree:
+  DC_CODE: 0
+  mobike_db:
+    host: mysql.tree.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.tree.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.tree.mobike.io
+    athena_host: http://athena.tree.mobike.io
+    mercury_host: http://mercury.tree.mobike.io
+    mola_host: http://mola.tree.mobike.io
+
+  redis_service:
+    host: redis.tree.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: tree.mobike.io
+
+american:
+  DC_CODE: 1
+  mobike_db:
+    host: mysql.american.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.american.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.american.mobike.io
+    athena_host: http://athena.american.mobike.io
+    mercury_host: http://mercury.american.mobike.io
+    mola_host: http://mola.american.mobike.io
+
+  redis_service:
+    host: redis.american.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: american.mobike.io
+
+kai:
+  DC_CODE: 2
+  mobike_db:
+    host: mysql.kai.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.kai.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.kai.mobike.io
+    athena_host: http://athena.kai.mobike.io
+    mercury_host: http://mercury.kai.mobike.io
+    mola_host: http://mola.kai.mobike.io
+
+  redis_service:
+    host: redis.kai.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: kai.mobike.io

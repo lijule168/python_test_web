@@ -1,0 +1,104 @@
+carrot:
+  DC_CODE: 0
+  mobike_db:
+    host: mysql.carrot.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.carrot.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.carrot.mobike.io
+    athena_host: http://athena.carrot.mobike.io
+    mercury_host: http://mercury.carrot.mobike.io
+    mola_host: http://mola.carrot.mobike.io
+
+  redis_service:
+    host: redis.carrot.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: carrot.mobike.io
+
+american:
+  DC_CODE: 1
+  mobike_db:
+    host: mysql.american.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.american.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.american.mobike.io
+    athena_host: http://athena.american.mobike.io
+    mercury_host: http://mercury.american.mobike.io
+    mola_host: http://mola.american.mobike.io
+
+  redis_service:
+    host: redis.american.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: american.mobike.io
+
+marco:
+  DC_CODE: 2
+  mobike_db:
+    host: mysql.marco.mobike.io
+    port: 3306
+    user: mobike001
+    passwd: m0bike123
+    db: mbk_db
+    charset: utf8
+
+  mongo_db:
+    host: mongo.marco.mobike.io
+    port: 27017
+    user: rwuser
+    passwd:
+
+  mobike_service:
+    mobike_api_host: http://app.marco.mobike.io
+    athena_host: http://athena.marco.mobike.io
+    mercury_host: http://mercury.marco.mobike.io
+    mola_host: http://mola.marco.mobike.io
+
+  redis_service:
+    host: redis.marco.mobike.io
+    port: 6379
+    passwd:
+
+  codis_service:
+    host: 10.2.12.235
+    port: 80
+    passwd:
+
+  mqtt:
+    host: marco.mobike.io
